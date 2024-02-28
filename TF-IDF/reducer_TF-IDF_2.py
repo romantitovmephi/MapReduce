@@ -14,8 +14,8 @@ for line in sys.stdin:
     word_list.append(word)
     tuple_list.append((w, d, q))
 
-print(word_list)
-print(tuple_list)
+#print(word_list)
+#print(tuple_list)
 
 for item in tuple_list:
     for elem in set(word_list):
