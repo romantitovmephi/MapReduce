@@ -8,7 +8,7 @@ map_list_for_dicts = []
 for line in sys.stdin:            # для каждой строки ввода
     result_dict = {}
     for word in line.strip().split(' '):    # для каждого слова в строке
-        map_dict = {word: 1}                # создаем словарь со значение 1
+        map_dict = {word: 1}                # создаем словарь со значением 1
         map_list_for_dicts.append(map_dict)
     # счетчиком - считаем все значения по одинаковым ключам в списке словарей
     result_dict = Counter()
